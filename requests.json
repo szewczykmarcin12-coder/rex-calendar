@@ -1,0 +1,14 @@
+[]
+```
+
+### 2. Zaktualizuj pliki w swoim repozytorium backendu:
+- Zastąp `vercel.json` nowym
+- Dodaj `api/requests.js`
+
+### 3. Zrób commit i push - Vercel automatycznie zrobi redeploy
+
+---
+
+## ✅ Po wdrożeniu sprawdź:
+```
+https://rex-cloud-backend.vercel.app/api/requests
