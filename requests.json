@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "date": "2026-01-29",
+    "dayName": "CZ",
+    "dayNum": 29,
+    "month": 0,
+    "year": 2026,
+    "type": "work",
+    "typeLabel": "Pracuj",
+    "position": "KIT",
+    "timeFrom": null,
+    "timeTo": null,
+    "status": "pending",
+    "employeeId": "user_ms_001",
+    "employeeName": "MARCIN SZEWCZYK",
+    "id": "req_1768998871180_edn0sy7oh",
+    "createdAt": "2026-01-21T12:34:31.181Z"
+  }
+]
