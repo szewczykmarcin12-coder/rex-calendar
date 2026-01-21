@@ -10,10 +10,12 @@
     "position": "KIT",
     "timeFrom": null,
     "timeTo": null,
-    "status": "pending",
+    "status": "rejected",
     "employeeId": "user_ms_001",
     "employeeName": "MARCIN SZEWCZYK",
     "id": "req_1768998871180_edn0sy7oh",
-    "createdAt": "2026-01-21T12:34:31.181Z"
+    "createdAt": "2026-01-21T12:34:31.181Z",
+    "decidedAt": "2026-01-21T12:34:53.673Z",
+    "updatedAt": "2026-01-21T12:34:54.261Z"
   }
 ]
