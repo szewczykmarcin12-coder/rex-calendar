@@ -17,5 +17,22 @@
     "createdAt": "2026-01-21T12:34:31.181Z",
     "decidedAt": "2026-01-21T12:34:53.673Z",
     "updatedAt": "2026-01-21T12:34:54.261Z"
+  },
+  {
+    "date": "2026-01-22",
+    "dayName": "CZ",
+    "dayNum": 22,
+    "month": 0,
+    "year": 2026,
+    "type": "hours",
+    "typeLabel": "Praca w godzinach",
+    "position": "KIT",
+    "timeFrom": "06:00",
+    "timeTo": "00:00",
+    "status": "pending",
+    "employeeId": "user_ms_001",
+    "employeeName": "MARCIN SZEWCZYK",
+    "id": "req_1769076906296_wu3tf6wpg",
+    "createdAt": "2026-01-22T10:15:06.296Z"
   }
 ]
