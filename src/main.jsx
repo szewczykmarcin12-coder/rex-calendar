@@ -5,11 +5,11 @@ import { createRoot } from 'react-dom/client';
 import {
   ArrowRight, Check, CheckCircle2, ChevronLeft, Clock3, Cloud,
   Coffee, CreditCard, KeyRound, LogIn, LogOut, Monitor,
-  PauseCircle, RefreshCw, ShieldCheck, TimerReset, UserRound, Wifi, WifiOff, X,
+  PauseCircle, RefreshCw, ShieldCheck, TimerReset, User as UserRound, Wifi, WifiOff, X,
 } from 'lucide-react';
 import './pos.css';
 
-const API_BASE = 'https://rex-cloud-backend.vercel.app/api';
+const API_BASE = String(import.meta.env.VITE_API_BASE || 'https://rex-cloud-backend.vercel.app/api').replace(/\/$/, '');
 const TERMINAL_ID = new URLSearchParams(location.search).get('terminal')
   || localStorage.getItem('rex_clock_terminal') || 'K003-POS-01';
 try { localStorage.setItem('rex_clock_terminal', TERMINAL_ID); } catch {}
